@@ -5,9 +5,10 @@ int main()
     scanf("%d",&n);
     while(n)
     {
-        d=n%10;
+        d=n%10; 
         rev=rev*10+d;
         n=n/10;
-    }
-    printf("%d",rev);
+        }
+        printf("%d",rev);
+    
 }
