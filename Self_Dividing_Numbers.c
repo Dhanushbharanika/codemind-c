@@ -5,8 +5,7 @@ int main()
     scanf("%d%d",&x,&y);
     for(x;x<=y;x++)
     {
-        n=x;
-        co=0;
+        n=x; co=0;
         c=0;
         while(n>0)
         {
@@ -16,16 +15,16 @@ int main()
             if(r==0)
             {
                 break;
-                
-            }
-            if(x%r==0)
-            {
-                c++;
-            }
-        }
-        if(c==co)
-        {
-            printf("%d ",x);
-        }
-    }
+                }
+                if(x%r==0)
+                {
+                    c++;
+                    }
+                    }
+                    if(c==co)
+                    {
+                        printf("%d ",x);
+                        }
+                        }
+    
 }
